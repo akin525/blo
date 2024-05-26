@@ -10,6 +10,8 @@
         @php(Theme::set('headerMeta', Theme::partial('header-meta')))
 
         {!! Theme::header() !!}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6117361441866120"
+                crossorigin="anonymous"></script>
     </head>
     <body {!! Theme::bodyAttributes() !!}>
     {!! apply_filters(THEME_FRONT_BODY, null) !!}
